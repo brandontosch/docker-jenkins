@@ -6,7 +6,8 @@ RUN apk add --update \
     bash \
     openssl \
     ca-certificates \
-    unzip
+    unzip \
+    sshpass
 
 RUN rm -rf /tmp/* /var/cache/apk/*
 
