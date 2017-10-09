@@ -1,4 +1,4 @@
-FROM jenkins-slave-git
+FROM jenkins-agent-git
 
 RUN ln -sf /var/jenkins/tools/terraform /usr/bin/terraform
 

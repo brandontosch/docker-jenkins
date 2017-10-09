@@ -1,4 +1,4 @@
-FROM jenkins-slave-git
+FROM jenkins-agent-git
 
 RUN apk add --update \ 
     curl \

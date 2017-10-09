@@ -1,4 +1,4 @@
-FROM jenkins-slave-alpine
+FROM jenkins-agent-alpine
 
 RUN apk add --update \
     git
