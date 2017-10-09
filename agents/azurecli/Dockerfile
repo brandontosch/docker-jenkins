@@ -16,6 +16,4 @@ ADD installazurecli.sh .
 RUN chmod +x installazurecli.sh
 RUN ./installazurecli.sh
 
-RUN ln -sf /var/jenkins/tools/packer /usr/bin/packer
-
 CMD ["/usr/sbin/sshd","-D"]
