@@ -12,8 +12,8 @@ RUN apk add --update \
     
 RUN rm -rf /tmp/* /var/cache/apk/*
 
-ADD installazurecli.sh .
-RUN chmod +x installazurecli.sh
-RUN ./installazurecli.sh
+ADD installazurecli_alpine.sh .
+RUN chmod +x installazurecli_alpine.sh
+RUN ./installazurecli_alpine.sh
 
 CMD ["/usr/sbin/sshd","-D"]
