@@ -2,7 +2,8 @@ FROM alpine:latest
 
 RUN apk add --update \
 #    openssh \
-    openjdk8 
+    openjdk8 \
+    openssh-client 
 #    bash \
 #    openssl \
 #    ca-certificates \
